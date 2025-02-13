@@ -58,7 +58,7 @@ class OptLockerTest {
         user.setAge(18);
         user.setEmail("test@baomidou.com");
         user.setName("optlocker");
-        user.setVersion(1);
+        user.setVersion(0);
         userMapper.insert(user);
         Long id = user.getId();
 
